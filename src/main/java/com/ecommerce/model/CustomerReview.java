@@ -11,15 +11,15 @@ public class CustomerReview {
 	@Id
 	@GeneratedValue(strategy = GenerationType.SEQUENCE)
 	private long id;
-	@Column (name = "ref_pedido")
+	@Column (name = "REF_PEDIDO")
 	private String pedido;
-	@Column (name = "id_produto")
-	private String idProduto;
-	@Column (name = "tamanho_produto")
+	@Column (name = "PRODUTO")
+	private String produto;
+	@Column (name = "TAMANHO_PRODUTO")
 	private String tamanho;
-	@Column (name = "dados_tamanho")
+	@Column (name = "QTD")
 	private String qtd;
-	@Column (name = "valor_total")
+	@Column (name = "VALOR_TOTAL")
 	private String valorTotal;
 		
 	
